@@ -1,0 +1,10 @@
+class MyName{
+	public static void main(String[] args) {
+		String firstName, lastName;
+		firstName = "Muhammad";
+		lastName = "Mulky";
+		
+		System.out.println("My name is" + firstName 
+		+ lastName);
+	}
+}
