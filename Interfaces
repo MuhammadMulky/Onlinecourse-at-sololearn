@@ -1,0 +1,21 @@
+interface Animal {
+	public void eat();
+	public void makeSound();
+}
+
+class Cat implements Animal {
+	public void makeSound() {
+		System.out.println("Meow");
+	}
+	public void eat() {
+		System.out.println("omnomnom");
+	}
+}
+
+class Interfaces {
+	public static void main(String[] args) {
+		Animal a = new Cat();
+		
+		a.makeSound();
+	}
+}
