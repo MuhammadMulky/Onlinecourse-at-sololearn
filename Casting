@@ -1,0 +1,7 @@
+class Casting {
+	public static void main(String[] args) {
+		double a = 42.571;
+		int b = (int) a;
+		System.out.println(b);
+	}
+}
