@@ -1,0 +1,9 @@
+class LogicalOperators {
+	public static void main(String[] args) {
+		int age = 20; int money = 600;
+		
+		if (age > 18 && money > 500) {
+				System.out.println("Welcome!");
+			}
+		}
+}
