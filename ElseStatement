@@ -1,0 +1,13 @@
+class ElseStatement {
+	public static void main(String[] args) {
+	int age = 30;
+	
+	if (age < 45 ) {
+		System.out.println("Too Young");
+	} else {
+		System.out.println("Hello");
+	}
+	
+	}	
+	
+}
